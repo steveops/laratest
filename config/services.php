@@ -35,8 +35,8 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
     'github' => [
-        'client_id' => '121d3c83582be4850255',
-        'client_secret' => 'c7f8a4d822360fd594bc0b79269368ad175fd523',
-        'redirect' => 'http://laratest/gituser',
+        'client_id' => 'ac53f32f264743e2dea0',
+        'client_secret' => 'c30f63cd3aade72e4ddaa5f08f230bdc292d0346',
+        'redirect' => "https://protected-inlet-46099.herokuapp.com/gituser",
     ]
 ];

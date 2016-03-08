@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'url' => 'https://sleepy-coast-92193.herokuapp.com',
+    'url' => 'https://protected-inlet-46099.herokuapp.com/',
 
     /*
     |--------------------------------------------------------------------------

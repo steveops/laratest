@@ -39,7 +39,7 @@ return [
     'connections' => [
 
         'main' => [
-            'token'   => '716b92e325998c6aced4356faf0212509e5b8e8c ',
+            'token'   => '346ffd81c7497ecfcce25816a206e03fe94eb37f',
             'method'  => 'token',
             // 'baseUrl' => 'https://api.github.com/',
             // 'version' => 'v3',
