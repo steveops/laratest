@@ -67,10 +67,11 @@ return [
 
         'pgsql' => [
             'driver'   => 'pgsql',
-            'host'     => parse_url(getenv("DATABASE_URL"))["host"],//env('DB_HOST', 'localhost'),
-            'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),//env('DB_DATABASE', 'forge'),
-            'username' => parse_url(getenv("DATABASE_URL"))["user"],//env('DB_USERNAME', 'forge'),
-            'password' => parse_url(getenv("DATABASE_URL"))["pass"],//env('DB_PASSWORD', ''),
+            'host'     => 'ec2-107-21-101-67.compute-1.amazonaws.com',//env('DB_HOST', 'localhost'),
+            'port'     => '5432',
+            'database' => 'd8fvks84cc7bj1',//substr(parse_url(getenv("DATABASE_URL"))["path"], 1),//env('DB_DATABASE', 'forge'),
+            'username' => 'anfyvaosxhyrmq',//parse_url(getenv("DATABASE_URL"))["user"],//env('DB_USERNAME', 'forge'),
+            'password' => 'hrLV_bfPWlDCHzigKGKplV9ke_',//parse_url(getenv("DATABASE_URL"))["pass"],//env('DB_PASSWORD', ''),
             'charset'  => 'utf8',
             'prefix'   => '',
             'schema'   => 'public',
